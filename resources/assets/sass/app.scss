@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'BwSurcoDEMORegular';
+	src: url('../fonts/BwSurcoDEMORegular.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'BwSurcoDEMOBold';
+	src: url('../fonts/BwSurcoDEMOBold.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'BwSurcoDEMOMedium';
+	src: url('../fonts/BwSurcoDEMOMedium.ttf') format('truetype'),
+}
+
+body {
+	font-family: "BwSurcoDEMORegular", "Helvetica Neue", sans-serif;
+}
+
+@import './modules/site-header';
+@import './modules/main-section';
+@import './modules/hero';

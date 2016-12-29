@@ -1,0 +1,134 @@
+.hero {
+
+	padding-bottom: 50px;
+
+	&__heading {
+	    width: 100%;
+	    float: left;
+	    color: #d83e40;
+	    text-shadow: 0 1px 3px #000;
+	    font: 42px "BwSurcoDEMOBold";
+	}
+
+	&__subheading {
+	    width: 100%;
+	    float: left;
+	    font: 21px/32px "BwSurcoDEMOMedium";
+	    color: #ffffff;
+	    margin: 10px 0 20px;
+	    position: relative;
+	    padding: 0 0 15px;
+
+	    &:after {
+		    width: 140px;
+		    position: absolute;
+		    bottom: 0;
+		    left: 0;
+		    height: 2px;
+		    background: #d93d41;
+		    content: "";
+	    }
+	}
+
+	&__paragraph {
+		width: 100%;
+	    float: left;
+	    font: 18px/24px "BwSurcoDEMORegular";
+	    margin: 0 0 30px;
+	    color: white;
+	}
+
+	&__learn-more {
+		width: 300px;
+	    float: left;
+	    text-align: center;
+	    font: 20px/20px "BwSurcoDEMOBold";
+	    color: #000;
+	    background: #fcd005;
+	    border-radius: 40px;
+	    -moz-border-radius: 40px;
+	    -webkit-border-radius: 40px;
+	    padding: 20px 0;
+	    transition: all 0.2s ease-in-out;
+
+	    &:hover {
+		    background: #000;
+		    color: #fcd005;
+		    text-decoration: none;
+	    }
+	}
+
+	&__links-list {
+		padding: 0;
+
+		&__item {
+		    float: left;
+		    margin: 0 0 0;
+		    padding: 0 20px;
+		    border-right: 2px solid #d83e40;
+
+
+		    &__link {
+				float: left;
+			    font: 18px/24px "BwSurcoDEMOMedium";
+			    color: white;
+			    transition: all 0.2s ease-in-out;
+
+			    &:hover {
+			    	color: #d83e40;
+			    	text-decoration: none;
+			    }
+
+			    img {
+				    width: 28px;
+				    display: inline-block;
+				    margin: 0 0 0 10px;
+			    }
+		    }
+
+		    &--first {
+		    	padding-left: 0;
+		    }
+
+		    &--last {
+		    	border-right: none;
+		    }
+		}
+	}
+
+	&__how-it-works {
+	    float: left;
+	    width: 100%;
+	    padding: 5px;
+	    margin: 40px 0 0;
+	    border: 1px solid #656565;
+	    border-radius: 5px;
+
+	    &__btn {
+			float: left;
+		    padding: 10px 20px;
+		    border-radius: 5px;
+		    background: #d83e40;
+		    font: 18px 'BwSurcoDEMOMedium';
+		    color: #fff;
+		    text-align: center;
+		    text-transform: uppercase;
+	    }
+
+		&__text {
+		    display: inline-block;
+		    margin: 0 0 0 5px;
+		    font: 18px 'BwSurcoDEMORegular';
+		    color: #fff;
+		    text-align: center;
+		}
+
+		&__all {
+			display: inline-block;
+		    margin: 0 5px;
+		    font: 18px 'BwSurcoDEMOMedium';
+		    color: #d83e40;
+		    text-align: center;
+		}
+	}
+}

@@ -1,2 +1,164 @@
+@font-face {
+  font-family: 'BwSurcoDEMORegular';
+  src: url("../fonts/BwSurcoDEMORegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'BwSurcoDEMOBold';
+  src: url("../fonts/BwSurcoDEMOBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'BwSurcoDEMOMedium';
+  src: url("../fonts/BwSurcoDEMOMedium.ttf") format("truetype"); }
+
+body {
+  font-family: "BwSurcoDEMORegular", "Helvetica Neue", sans-serif; }
+
+.site-header {
+  background-color: #D83E40;
+  color: white;
+  padding: 35px 0; }
+  .site-header__logo {
+    background: url(../img/herolocity-logo.png);
+    width: 202px;
+    height: 46px;
+    float: left; }
+  .site-header__nav {
+    float: right;
+    list-style-type: none; }
+    .site-header__nav__item {
+      display: inline-block;
+      font-size: 1.2em;
+      margin-right: 20px; }
+      .site-header__nav__item--last {
+        margin-right: 0; }
+      .site-header__nav__item__call-us-button {
+        padding: 12px 25px 12px 50px;
+        text-align: center;
+        border: 1px solid #fff;
+        border-radius: 30px;
+        color: white;
+        background: url(../img/phone-icon.png) 19px 0 no-repeat;
+        transition: all 0.2s ease;
+        font-weight: bold; }
+        .site-header__nav__item__call-us-button:hover {
+          text-decoration: none;
+          color: #D83E40;
+          background-color: white;
+          background-position: 19px 100%; }
+      .site-header__nav__item__menu-button {
+        padding: 0 0 0 60px;
+        text-align: center;
+        font-size: 1.5em;
+        color: white;
+        text-transform: uppercase;
+        background: url(../img/menu-icon.png) 0 0 no-repeat;
+        transition: all 0.2s ease;
+        margin: 10px 0 0; }
+        .site-header__nav__item__menu-button:hover {
+          color: white;
+          text-decoration: none; }
+
+.main-section {
+  background: url(../img/main-sec-bg.jpg) 0 0 no-repeat;
+  background-size: cover;
+  padding-top: 90px; }
+
+.hero {
+  padding-bottom: 50px; }
+  .hero__heading {
+    width: 100%;
+    float: left;
+    color: #d83e40;
+    text-shadow: 0 1px 3px #000;
+    font: 42px "BwSurcoDEMOBold"; }
+  .hero__subheading {
+    width: 100%;
+    float: left;
+    font: 21px/32px "BwSurcoDEMOMedium";
+    color: #ffffff;
+    margin: 10px 0 20px;
+    position: relative;
+    padding: 0 0 15px; }
+    .hero__subheading:after {
+      width: 140px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      background: #d93d41;
+      content: ""; }
+  .hero__paragraph {
+    width: 100%;
+    float: left;
+    font: 18px/24px "BwSurcoDEMORegular";
+    margin: 0 0 30px;
+    color: white; }
+  .hero__learn-more {
+    width: 300px;
+    float: left;
+    text-align: center;
+    font: 20px/20px "BwSurcoDEMOBold";
+    color: #000;
+    background: #fcd005;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    padding: 20px 0;
+    transition: all 0.2s ease-in-out; }
+    .hero__learn-more:hover {
+      background: #000;
+      color: #fcd005;
+      text-decoration: none; }
+  .hero__links-list {
+    padding: 0; }
+    .hero__links-list__item {
+      float: left;
+      margin: 0 0 0;
+      padding: 0 20px;
+      border-right: 2px solid #d83e40; }
+      .hero__links-list__item__link {
+        float: left;
+        font: 18px/24px "BwSurcoDEMOMedium";
+        color: white;
+        transition: all 0.2s ease-in-out; }
+        .hero__links-list__item__link:hover {
+          color: #d83e40;
+          text-decoration: none; }
+        .hero__links-list__item__link img {
+          width: 28px;
+          display: inline-block;
+          margin: 0 0 0 10px; }
+      .hero__links-list__item--first {
+        padding-left: 0; }
+      .hero__links-list__item--last {
+        border-right: none; }
+  .hero__how-it-works {
+    float: left;
+    width: 100%;
+    padding: 5px;
+    margin: 40px 0 0;
+    border: 1px solid #656565;
+    border-radius: 5px; }
+    .hero__how-it-works__btn {
+      float: left;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background: #d83e40;
+      font: 18px 'BwSurcoDEMOMedium';
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase; }
+    .hero__how-it-works__text {
+      display: inline-block;
+      margin: 0 0 0 5px;
+      font: 18px 'BwSurcoDEMORegular';
+      color: #fff;
+      text-align: center; }
+    .hero__how-it-works__all {
+      display: inline-block;
+      margin: 0 5px;
+      font: 18px 'BwSurcoDEMOMedium';
+      color: #d83e40;
+      text-align: center; }
 
 /*# sourceMappingURL=app.css.map */

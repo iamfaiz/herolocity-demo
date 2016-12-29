@@ -1,0 +1,61 @@
+.site-header {
+	background-color: #D83E40;
+	color: white;
+	padding: 35px 0;
+
+	&__logo {
+		background: url(../img/herolocity-logo.png);
+		width: 202px;
+		height: 46px;
+		float: left;
+	}
+
+	&__nav {
+		float: right;
+		list-style-type: none;
+
+		&__item {
+			display: inline-block;
+			font-size: 1.2em;
+			margin-right: 20px;
+
+			&--last {
+				margin-right: 0;
+			}
+
+			&__call-us-button {
+				padding: 12px 25px 12px 50px;
+			    text-align: center;
+			    border: 1px solid #fff;
+			    border-radius: 30px;
+			    color: white;
+				background: url(../img/phone-icon.png) 19px 0 no-repeat;
+			    transition: all 0.2s ease;
+			    font-weight: bold;
+
+			    &:hover {
+			    	text-decoration: none;
+			    	color: #D83E40;
+			    	background-color: white;
+			    	background-position: 19px 100%;
+			    }
+			}
+
+			&__menu-button {
+			    padding: 0 0 0 60px;
+			    text-align: center;
+			    font-size: 1.5em;
+			    color: white;
+			    text-transform: uppercase;
+			    background: url(../img/menu-icon.png) 0 0 no-repeat;
+			    transition: all 0.2s ease;
+			    margin: 10px 0 0;
+
+			    &:hover {
+			    	color: white;
+			    	text-decoration: none;
+			    }
+			}
+		}
+	}
+}
